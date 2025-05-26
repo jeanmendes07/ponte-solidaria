@@ -7,9 +7,9 @@ export default function Unkowing() {
             <div className="w-[60%] bg-black flex flex-col text-xl gap-5 pl-8 pt-6 font-semibold">
               <button onClick={hideMenu} className="pr-52"><p>x</p></button>
 
-              <a href="">Home</a>
-              <a href="">Instituições</a>
-              <a href="">Formulário</a>
+              <a href="/">Home</a>
+              <a href="Instituicoes">Instituições</a>
+              <a href="Formulario">Formulário</a>
             </div>
 
             <button onClick={hideMenu} className="w-[40%] bg-gray opacity-[50%]"><div ></div></button>
@@ -22,7 +22,7 @@ export default function Unkowing() {
 
         <header className="flex w-screen bg-black fixed items-center justify-center">
             <div>
-              <a href="">
+              <a href="/">
                 <img src="/logo.svg" alt="" className="h-24" />
               </a>
             </div>

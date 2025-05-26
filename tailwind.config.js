@@ -13,7 +13,8 @@ export default {
       'blue': '#003F79',
       'offwhite': '#E6E1D3',
       'textg': '#A9A9A9',
-      'lblu': '#00A8FF'
+      'lblu': '#00A8FF',
+      '--dgray': 'BEBEBE' 
     },
     fontFamily: {
       'porter': 'Porter Sans Block',
