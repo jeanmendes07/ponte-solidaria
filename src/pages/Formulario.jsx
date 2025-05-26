@@ -1,4 +1,31 @@
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
+
 export default function Formulario() {
+  const form = useRef();
+
+  function enviarEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_yk11ryb",
+        "template_wpos43q",  
+        form.current,
+        "9F_aOukZOorORzRP9" 
+      )
+      .then(
+        (result) => {
+          alert("Formulário enviado com sucesso!");
+          form.current.reset();
+        },
+        (error) => {
+          alert("Erro ao enviar o formulário.");
+          console.error(error.text);
+        }
+      );
+  }
+
   return (
     <section className="">
 
@@ -33,17 +60,50 @@ export default function Formulario() {
 
             <p className=" text-center">Aqui você deve enviar os dados da sua instituição para análise, e se aprovado, adicionaremos ao site.</p>
 
-            <form action="" className="w-full flex flex-col gap-4 py-6">
-              <input type="text" placeholder="Nome da Instituição" className="text-center w-full py-6 rounded-xl border"/>
+              <form
+          ref={form}
+          onSubmit={enviarEmail}
+          className="w-full flex flex-col gap-4 py-6"
+        >
+          <input
+            type="text"
+            name="instituicao"
+            placeholder="Nome da Instituição"
+            className="text-center w-full py-6 rounded-xl border"
+            required
+          />
 
-              <input type="text" placeholder="O que sua instituição faz?" className="text-center w-full py-6 rounded-xl border"/> 
+          <input
+            type="text"
+            name="atividade"
+            placeholder="O que sua instituição faz?"
+            className="text-center w-full py-6 rounded-xl border"
+            required
+          />
 
-              <input type="text" placeholder="Dados(Contato, localização, ect.)" className="text-center w-full py-6 rounded-xl border"/>
+          <input
+            type="text"
+            name="dados"
+            placeholder="Dados(Contato, localização, etc.)"
+            className="text-center w-full py-6 rounded-xl border"
+            required
+          />
 
-              <input type="text" placeholder="Porque quer sua instituição aqui?" className="text-center w-full py-6 rounded-xl border"/>
+          <input
+            type="text"
+            name="motivo"
+            placeholder="Porque quer sua instituição aqui?"
+            className="text-center w-full py-6 rounded-xl border"
+            required
+          />
 
-              <button className="bg-green text-white py-5 rounded-xl border border-black">Enviar</button>
-            </form>
+          <button
+            type="submit"
+            className="bg-green text-white py-5 rounded-xl border border-black"
+          >
+            Enviar
+          </button>
+        </form>
         </div>
     </section>
   )
