@@ -34,7 +34,7 @@ export default function Instum() {
               <div className="px-6 text-justify">
                   <h1 className="font-semibold text-center text-2xl py-6">Casa do Migrante - Missão Paz</h1>
 
-                  <div className="flex flex-col gap-4 mb-20 text-lg">
+                  <div className="flex flex-col gap-4 mb-10 text-lg">
                       <p>A Casa do Migrante é o abrigo da Missão Paz, uma instituição filantrópica vinculada aos Missionários de São Carlos (Scalabrinianos), que atua no acolhimento e apoio a migrantes e refugiados desde os anos 1930 na região do Glicério, em São Paulo, Brasil. A Casa do Migrante permite a permanência de apátridas, imigrantes, solicitantes de refúgio e refugiados de acordo com as suas necessidades individuais.</p>
 
                       <p>Endereço: Rua Glicério, 225 - Liberdade - São Paulo/SP</p>
