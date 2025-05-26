@@ -20,7 +20,7 @@ export default function Instituicoes() {
             <img src="/menu.svg" alt="" className="h-16"/>
         </button>
 
-        <header className="flex w-screen bg-black fixed items-center justify-center xl:justify-between xl:px-44">
+        <header className="flex w-screen bg-black fixed items-center justify-center xl:justify-between xl:px-44 z-50">
             <div>
               <a href="/">
                 <img src="/logo.svg" alt="" className="h-24" />
@@ -35,28 +35,28 @@ export default function Instituicoes() {
         </header>
 
       <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center">
-          <h1 className="font-bold text-3xl py-8 px-8 text-center">Instituições Registradas</h1>
+          <h1 className="font-bold text-3xl py-8 px-8 text-center xl:text-6xl xl:py-14">Instituições Registradas</h1>
 
-          <section className="px-7 flex flex-col gap-8 mb-10">
-            <a href="Casa-do-migrante" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+          <section className="px-7 flex flex-col gap-8 mb-10 xl:pt-5 xl:flex-row xl:flex-wrap xl:justify-center xl:gap-20 grid grid-cols-2">
+            <a href="Casa-do-migrante" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold scale-100 z-10 xl:scale-110">
               <img src="/missaopaz.svg" alt="" className="pb-2 rounded-xl" />
 
               <h2>Casa do migrante - Missão Paz</h2>
             </a>
             
-            <a href="Banco-de-alimentos" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+            <a href="Banco-de-alimentos" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold scale-100 z-10 xl:scale-110">
               <img src="/banco.svg" alt="" className="pb-2 rounded-xl" />
 
               <h2>Banco de Alimentos</h2>
             </a>
             
-            <a href="/Good-truck" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+            <a href="/Good-truck" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold scale-100 z-10 xl:scale-110">
               <img src="/goodt.svg" alt="" className="pb-2 rounded-xl" />
 
               <h2>GoodTruck Brasil</h2>
             </a>
             
-            <a href="Formulario" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+            <a href="Formulario" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold scale-100 z-10 xl:scale-110">
               <img src="/mais.svg" alt="" className="pb-2 rounded-xl" />
             </a>
           </section>
