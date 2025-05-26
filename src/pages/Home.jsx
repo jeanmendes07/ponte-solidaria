@@ -28,7 +28,7 @@ export default function Home() {
             </div>
         </header>
 
-        <div className="bg-offwhite pt-24 flex flex-col items-center">
+        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center">
             <h1 className="font-bold text-3xl py-8">O que é o projeto?</h1>
 
             <p className="px-10 text-justify pb-10">Neste site, reunimos diversas instituições que oferecem serviços comunitários voltados para imigrantes em situação de vulnerabilidade. Nosso objetivo é facilitar o acesso a informações importantes e confiáveis. Aqui, você encontrará uma lista de organizações que prestam apoio social, jurídico, psicológico e outros tipos de assistência. Você poderá consultar os serviços oferecidos, os endereços, formas de contato e outros detalhes essenciais para que possa buscar ajuda com segurança e dignidade. Tudo isso está disponível de forma acessível e organizada, em um só lugar.</p>

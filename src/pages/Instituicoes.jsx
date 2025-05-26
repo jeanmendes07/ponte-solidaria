@@ -28,7 +28,7 @@ export default function Instituicoes() {
             </div>
         </header>
 
-      <div className="bg-offwhite pt-24 flex flex-col items-center">
+      <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center">
           <h1 className="font-bold text-3xl py-8 px-8 text-center">Instituições Registradas</h1>
 
           <section className="px-7 flex flex-col gap-8 mb-10">
