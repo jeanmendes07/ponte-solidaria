@@ -28,19 +28,19 @@ export default function Instres() {
             </div>
 
             <div className="text-white max-xl:hidden text-lg font-semibold flex gap-16">
-              <a href="/">Home</a>
-              <a href="Instituicoes">Instituições</a>
-              <a href="Formulario">Formulário</a>
+              <a href="/" className="transition-transform duration-300 xl:hover:scale-[1.3]">Home</a>
+              <a href="Instituicoes" className="transition-transform duration-300 xl:hover:scale-[1.3]">Instituições</a>
+              <a href="Formulario" className="transition-transform duration-300 xl:hover:scale-[1.3]">Formulário</a>
             </div>
         </header>
 
-        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center">
-              <img src="/Goodt.jpg" alt=""  className="px-6 mt-10"/>
+        <div className="bg-[#E6E1D3] pt-24 flex max-xl:flex-col items-center xl:flex xl:px-20 xl:justify-center">
+              <img src="/Goodt.jpg" alt=""  className="px-6 mt-10 xl:max-w-2xl"/>
 
-              <div className="px-6 text-justify">
-                  <h1 className="font-semibold text-center text-2xl py-6">GoodTruck Brasil</h1>
+              <div className="px-6 text-justify xl:mt-14 xl:mb-20 xl:mt-20 2xl:mt-32 2xl:pb-24">
+                  <h1 className="font-semibold text-center text-2xl py-6 mb-4 xl:text-5xl xl:font-bold">GoodTruck Brasil</h1>
 
-                  <div className="flex flex-col gap-4 mb-10 text-lg">
+                  <div className="flex flex-col gap-4 mb-10 text-lg xl:text-xl">
                       <p>O GoodTruck Brasil é uma organização sem fins lucrativos fundada em 2016, em Curitiba (PR), com o objetivo de levar alimentos de onde sobra para onde falta. Através de projetos e ações em colaboração com empresas parceiras e voluntários, a ONG resgata alimentos que seriam desperdiçados e os destina a populações em situação de vulnerabilidade social e insegurança alimentar. </p>
 
                       <p>Localização: Disponível em São Paulo, Rio de Janeiro, Minas Gerais e Paraná.</p>

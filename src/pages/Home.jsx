@@ -23,14 +23,14 @@ export default function Home() {
         <header className="flex w-screen bg-black fixed items-center justify-center xl:justify-between xl:px-44">
             <div>
               <a href="/">
-                <img src="/logo.svg" alt="" className="h-24" />
+                <img src="/logo.svg" alt="" className="h-24 " />
               </a>
             </div>
 
             <div className="text-white max-xl:hidden text-lg font-semibold flex gap-16">
-              <a href="/">Home</a>
-              <a href="Instituicoes">Instituições</a>
-              <a href="Formulario">Formulário</a>
+              <a href="/" className="transition-transform duration-300 xl:hover:scale-[1.3]">Home</a>
+              <a href="Instituicoes" className="transition-transform duration-300 xl:hover:scale-[1.3]">Instituições</a>
+              <a href="Formulario" className="transition-transform duration-300 xl:hover:scale-[1.3]">Formulário</a>
             </div>
         </header>
 
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="bg-black flex flex-col items-center text-white">
             <h1 className="font-bold text-3xl py-8 xl:text-6xl xl:py-14">Quem nós somos?</h1>
 
-            <p className="px-10 text-justify pb-10 xl:text-2xl xl:px-24 xl:pb-14">Este projeto foi desenvolvido por nós, estudantes universitários da área de tecnologia, como parte de uma iniciativa acadêmica com foco no impacto social. Fomos desafiados a criar uma solução digital que contribuísse com a comunidade, e optamos por reunir, em um só lugar, informações úteis para imigrantes em situação de vulnerabilidade. Acreditamos no poder da informação e da solidariedade. Por isso, este site foi pensado com responsabilidade, empatia e compromisso social. Esperamos que ele seja uma ponte entre quem precisa de ajuda e quem pode oferecê-la. Caso queira ver sua instituição registrada no site, clique <span className="text-[#00A8FF] "><a href="/Formulario">aqui</a></span>.</p>
+            <p className="px-10 text-justify pb-10 xl:text-2xl xl:px-24 xl:pb-14">Este projeto foi desenvolvido por nós, estudantes universitários da área de tecnologia, como parte de uma iniciativa acadêmica com foco no impacto social. Fomos desafiados a criar uma solução digital que contribuísse com a comunidade, e optamos por reunir, em um só lugar, informações úteis para imigrantes em situação de vulnerabilidade. Acreditamos no poder da informação e da solidariedade. Por isso, este site foi pensado com responsabilidade, empatia e compromisso social. Esperamos que ele seja uma ponte entre quem precisa de ajuda e quem pode oferecê-la. Caso queira ver sua instituição registrada no site, clique <span className="text-[#00A8FF]  "><a href="/Formulario">aqui</a></span>.</p>
         </div>
         
     </section>

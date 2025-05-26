@@ -28,19 +28,19 @@ export default function Instum() {
             </div>
 
             <div className="text-white max-xl:hidden text-lg font-semibold flex gap-16">
-              <a href="/">Home</a>
-              <a href="Instituicoes">Instituições</a>
-              <a href="Formulario">Formulário</a>
+              <a href="/" className="transition-transform duration-300 xl:hover:scale-[1.3]">Home</a>
+              <a href="Instituicoes" className="transition-transform duration-300 xl:hover:scale-[1.3]">Instituições</a>
+              <a href="Formulario" className="transition-transform duration-300 xl:hover:scale-[1.3]">Formulário</a>
             </div>
         </header>
 
-        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center">
-              <img src="/imgcas.jpeg" alt=""  className="px-6 mt-10"/>
+        <div className="bg-[#E6E1D3] pt-24 flex max-xl:flex-col items-center xl:flex xl:px-20 xl:justify-center">
+              <img src="/imgcas.jpeg" alt=""  className="px-6 mt-10 xl:mt-[-2rem]"/>
 
-              <div className="px-6 text-justify">
-                  <h1 className="font-semibold text-center text-2xl py-6">Casa do Migrante - Missão Paz</h1>
+              <div className="px-6 text-justify xl:mt-14 xl:mb-20 xl:mt-20 2xl:mt-32 2xl:pb-24">
+                  <h1 className="font-semibold text-center text-2xl py-6 mb-4 xl:text-5xl xl:font-bold">Casa do Migrante - Missão Paz</h1>
 
-                  <div className="flex flex-col gap-4 mb-10 text-lg">
+                  <div className="flex flex-col gap-4 mb-10 text-lg xl:text-xl ">
                       <p>A Casa do Migrante é o abrigo da Missão Paz, uma instituição filantrópica vinculada aos Missionários de São Carlos (Scalabrinianos), que atua no acolhimento e apoio a migrantes e refugiados desde os anos 1930 na região do Glicério, em São Paulo, Brasil. A Casa do Migrante permite a permanência de apátridas, imigrantes, solicitantes de refúgio e refugiados de acordo com as suas necessidades individuais.</p>
 
                       <p>Endereço: Rua Glicério, 225 - Liberdade - São Paulo/SP</p>

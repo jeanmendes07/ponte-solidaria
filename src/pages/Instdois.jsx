@@ -28,19 +28,19 @@ export default function Instdois() {
             </div>
 
             <div className="text-white max-xl:hidden text-lg font-semibold flex gap-16">
-              <a href="/">Home</a>
-              <a href="Instituicoes">Instituições</a>
-              <a href="Formulario">Formulário</a>
+              <a href="/" className="transition-transform duration-300 xl:hover:scale-[1.3]">Home</a>
+              <a href="Instituicoes" className="transition-transform duration-300 xl:hover:scale-[1.3]">Instituições</a>
+              <a href="Formulario" className="transition-transform duration-300 xl:hover:scale-[1.3]">Formulário</a>
             </div>
         </header>
 
-        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center">
+        <div className="bg-[#E6E1D3] pt-24 flex max-xl:flex-col items-center xl:flex xl:px-20 xl:justify-center">
               <img src="/Bancali.jpeg" alt=""  className="px-6 mt-10"/>
 
-              <div className="px-6 text-justify">
-                  <h1 className="font-semibold text-center text-2xl py-6">Banco de alimentos</h1>
+              <div className="px-6 text-justify xl:mt-14 xl:mb-20 xl:mt-20 2xl:mt-32 2xl:pb-32">
+                  <h1 className="font-semibold text-center text-2xl py-6 mb-4 xl:text-5xl xl:font-bold">Banco de alimentos</h1>
 
-                  <div className="flex flex-col gap-4 mb-10 text-lg">
+                  <div className="flex flex-col gap-4 mb-10 text-lg xl:text-xl">
                       <p>A ONG Banco de Alimentos é uma organização sem fins lucrativos fundada em 1998 pela economista Luciana Chinaglia Quintão. Com sede em São Paulo, a instituição atua há mais de 25 anos na redução da fome por meio do combate ao desperdício de alimentos, promovendo a cidadania consciente e a educação nutricional.</p>
 
                       <p>Endereço: Rua Atibaia, 218 – Pacaembu. Cep: 01235-010</p>

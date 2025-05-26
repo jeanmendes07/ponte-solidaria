@@ -16,15 +16,21 @@ export default function Unkowing() {
 
         </section>
 
-        <button onClick={showMenu} className="fixed z-20 mt-4 ml-5">
+        <button onClick={showMenu} className="fixed z-20 mt-4 ml-5 xl:hidden">
             <img src="/menu.svg" alt="" className="h-16"/>
         </button>
 
-        <header className="flex w-screen bg-black fixed items-center justify-center">
+        <header className="flex w-screen bg-black fixed items-center justify-center xl:justify-between xl:px-44">
             <div>
               <a href="/">
                 <img src="/logo.svg" alt="" className="h-24" />
               </a>
+            </div>
+
+            <div className="text-white max-xl:hidden text-lg font-semibold flex gap-16">
+              <a href="/">Home</a>
+              <a href="Instituicoes">Instituições</a>
+              <a href="Formulario">Formulário</a>
             </div>
         </header>
 

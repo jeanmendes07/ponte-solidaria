@@ -55,27 +55,27 @@ export default function Formulario() {
             </div>
 
             <div className="text-white max-xl:hidden text-lg font-semibold flex gap-16">
-              <a href="/">Home</a>
-              <a href="Instituicoes">Instituições</a>
-              <a href="Formulario">Formulário</a>
+              <a href="/" className="transition-transform duration-300 xl:hover:scale-[1.3]">Home</a>
+              <a href="Instituicoes" className="transition-transform duration-300 xl:hover:scale-[1.3]">Instituições</a>
+              <a href="Formulario" className="transition-transform duration-300 xl:hover:scale-[1.3]">Formulário</a>
             </div>
         </header>
 
-        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center px-10 pb-24">
-            <h1 className="font-bold text-3xl py-8">Formulário</h1>
+        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center px-10 pb-24 xl:pb-10">
+            <h1 className="font-bold text-3xl py-8 xl:text-6xl xl:py-14">Formulário</h1>
 
-            <p className=" text-center">Aqui você deve enviar os dados da sua instituição para análise, e se aprovado, adicionaremos ao site.</p>
+            <p className=" text-center xl:text-2xl xl:max-w-4xl xl:pb-6">Aqui você deve enviar os dados da sua instituição para análise, e se aprovado, adicionaremos ao site.</p>
 
               <form
           ref={form}
           onSubmit={enviarEmail}
-          className="w-full flex flex-col gap-4 py-6"
+          className="w-full flex flex-col gap-4 py-6 xl:max-w-4xl xl:text-2xl xl:gap-6"
         >
           <input
             type="text"
             name="instituicao"
             placeholder="Nome da Instituição"
-            className="text-center w-full py-6 rounded-xl border"
+            className="text-center w-full py-6 rounded-xl border xl:py-8"
             required
           />
 
@@ -83,7 +83,7 @@ export default function Formulario() {
             type="text"
             name="atividade"
             placeholder="O que sua instituição faz?"
-            className="text-center w-full py-6 rounded-xl border"
+            className="text-center w-full py-6 rounded-xl border xl:py-8"
             required
           />
 
@@ -91,7 +91,7 @@ export default function Formulario() {
             type="text"
             name="dados"
             placeholder="Dados(Contato, localização, etc.)"
-            className="text-center w-full py-6 rounded-xl border"
+            className="text-center w-full py-6 rounded-xl border xl:py-8"
             required
           />
 
@@ -99,13 +99,13 @@ export default function Formulario() {
             type="text"
             name="motivo"
             placeholder="Porque quer sua instituição aqui?"
-            className="text-center w-full py-6 rounded-xl border"
+            className="text-center w-full py-6 rounded-xl border xl:py-8"
             required
           />
 
           <button
             type="submit"
-            className="bg-green text-white py-5 rounded-xl border border-black"
+            className="bg-green text-white py-5 rounded-xl border border-black xl:py-8"
           >
             Enviar
           </button>
