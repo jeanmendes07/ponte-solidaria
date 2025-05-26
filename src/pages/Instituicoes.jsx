@@ -38,7 +38,7 @@ export default function Instituicoes() {
               <h2>Casa do migrante - Missão Paz</h2>
             </a>
             
-            <a href="" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+            <a href="Banco-de-alimentos" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
               <img src="/banco.svg" alt="" className="pb-2 rounded-xl" />
 
               <h2>Banco de Alimentos</h2>
@@ -50,7 +50,7 @@ export default function Instituicoes() {
               <h2>GoodTruck Brasil</h2>
             </a>
             
-            <a href="" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+            <a href="Formulario" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
               <img src="/mais.svg" alt="" className="pb-2 rounded-xl" />
             </a>
           </section>
