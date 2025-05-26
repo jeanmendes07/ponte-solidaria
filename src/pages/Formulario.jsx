@@ -28,7 +28,7 @@ export default function Formulario() {
             </div>
         </header>
 
-        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center px-10">
+        <div className="bg-[#E6E1D3] pt-24 flex flex-col items-center px-10 pb-24">
             <h1 className="font-bold text-3xl py-8">Formulário</h1>
 
             <p className=" text-center">Aqui você deve enviar os dados da sua instituição para análise, e se aprovado, adicionaremos ao site.</p>
