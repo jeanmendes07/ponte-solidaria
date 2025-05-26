@@ -32,7 +32,7 @@ export default function Instituicoes() {
           <h1 className="font-bold text-3xl py-8 px-8 text-center">Instituições Registradas</h1>
 
           <section className="px-7 flex flex-col gap-8 mb-10">
-            <a href="" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
+            <a href="Casa-do-migrante" className="px-4 bg-[#BEBEBE] py-4 rounded-xl flex flex-col pb-3 items-center font-semibold">
               <img src="/missaopaz.svg" alt="" className="pb-2 rounded-xl" />
 
               <h2>Casa do migrante - Missão Paz</h2>

@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import Instituicoes from "./pages/Instituicoes";
 import Formulario from "./pages/Formulario";
+import Instum from "./pages/Instum";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/Instituicoes" element={<Instituicoes/>} />
             <Route path="/Formulario" element={<Formulario/>} />
+            <Route path="/Casa-do-migrante" element={<Instum/>} />
          </Routes>
       </BrowserRouter>
    );
